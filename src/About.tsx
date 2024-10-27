@@ -1,6 +1,3 @@
-import Crafted from "./Crafted";
-import Mythic from "./Mythic";
-
 export default function About() {
   return (
     <div className="max-w-3xl p-10">

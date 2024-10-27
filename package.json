@@ -1,5 +1,6 @@
 {
-  "name": "build-showcase",
+  "name": "wynn-featured-builds",
+  "homepage": "https://purplecursor.github.io/wynn-featured-builds/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
