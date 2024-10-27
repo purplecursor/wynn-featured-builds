@@ -3,7 +3,7 @@ import Builds from "./Builds";
 
 export default function App() {
   return (
-    <div className="flex flex-col sm:flex-row bg-gray-950 h-screen text-white">
+    <div className="flex flex-col sm:flex-row">
       <div className="text-center w-full basis-2/3">
         <Builds />
       </div>
