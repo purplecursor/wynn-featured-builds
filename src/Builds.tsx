@@ -8,7 +8,7 @@ export default function Builds() {
       <ul className="space-y-5 p-2">
         {builds.map((build) => (
           <li>
-            <Build name={build.name} href={`./builds/${build.id}`} />
+            <Build name={build.name} href={`#/builds/${build.id}`} />
           </li>
         ))}
       </ul>
