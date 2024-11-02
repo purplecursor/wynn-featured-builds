@@ -4,8 +4,8 @@ import { builds } from "./data/data";
 export default function BuildDetails() {
   const params = useParams();
   const buildId = params.buildId;
-  const build = builds.filter((build) => build.id == buildId);
-  const myBuild = build[0];
+  const buildResults = builds.filter((build) => build.id == buildId);
+  const myBuild = buildResults[0];
 
   return (
     <div className="max-w-3xl p-10">
